@@ -34,7 +34,7 @@ if __name__ == "__main__":
     tornado.ioloop.IOLoop.current().start()
 
 def poslat_mail():
-    print("prdel")
+    print("xxx")
 
 schedule.every().tuesday.at("13:11").do(poslat_mail())
 schedule.every(10).do(poslat_mail)
